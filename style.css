@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Montserrat&family=Pacifico&family=Varela+Round&display=swap');
+
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(159, 181, 222);
+}
+
+#head{
+    margin: 70px 30px 70px 30px;
+    padding: 20px 0px;
+    background-color:lightgoldenrodyellow;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Fugaz One', cursive;
+    color:rgb(82, 75, 132);
+}
+p{
+    font-family: 'Pacifico', cursive;
+    color: rgb(229, 127, 2);
+    font-size: 1.3rem;
+}
+
+#interaction{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 30px 70px 30px;
+    padding: 20px 0px;
+    background-color:lightgoldenrodyellow;
+    border-radius: 20px;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    margin: 50px 10px 50px 10px;
+    border-radius: 20px;
+    border-style:none;
+    background-color:rgb(218, 229, 190);
+    color: rgb(229, 127, 2);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    transform: scale(1.05);
+    background:#FF8C00;
+    color: rgb(218, 229, 190);
+    border-width: 0px;
+}
